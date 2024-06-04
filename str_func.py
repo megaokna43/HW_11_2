@@ -1,4 +1,13 @@
 def convert_to_uppercase(text):
+       """
+    Преобразует строку в верхний регистр.
+
+    Args:
+        text (str): Входная строка.
+
+    Returns:
+        str: Строка в верхнем регистре.
+    """
     uppercase_text = text.upper()
     return uppercase_text
 
